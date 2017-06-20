@@ -3,11 +3,11 @@
 #define select_display 0xFFC1
 #define	CHT2	P3_4
 
-	static char far at dados_7seg dados; // variavel dados aponta para dados_7seg, far at sao palavras reservadas do compilador
-	int sw4State;
-	int n;
-	static char far at select_display display;
-	static __code unsigned char  phone[] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x67, 0x77, 0x7C, 0x39, 0x5E, 0x79, 0x71};
+static char far at dados_7seg dados; // variavel dados aponta para dados_7seg, far at sao palavras reservadas do compilador
+int sw4State;
+int n;
+static char far at select_display display;
+static __code unsigned char  phone[] = {0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x67, 0x77, 0x7C, 0x39, 0x5E, 0x79, 0x71};
 
 
 
